@@ -2,6 +2,46 @@
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
+`create-t3-app@7.23.1`
+```
+   ___ ___ ___   __ _____ ___   _____ ____    __   ___ ___
+  / __| _ \ __| /  \_   _| __| |_   _|__ /   /  \ | _ \ _ \
+ | (__|   / _| / /\ \| | | _|    | |  |_ \  / /\ \|  _/  _/
+  \___|_|_\___|_/‾‾\_\_| |___|   |_| |___/ /_/‾‾\_\_| |_|
+
+
+│
+◇  What will your project be called?
+│  t3-starter-template
+│
+◇  Will you be using TypeScript or JavaScript?
+│  TypeScript
+│
+◇  Will you be using Tailwind CSS for styling?
+│  Yes
+│
+◇  Would you like to use tRPC?
+│  Yes
+│
+◇  What authentication provider would you like to use?
+│  NextAuth.js
+│
+◇  What database ORM would you like to use?
+│  Prisma
+│
+◇   EXPERIMENTAL  Would you like to use Next.js App Router?
+│  No
+│
+◇  Should we initialize a Git repository and stage the changes?
+│  Yes
+│
+◇  Should we run 'npm install' for you?
+│  Yes
+│
+◇  What import alias would you like to use?
+│  ~/
+```
+
 ## What's next? How do I make an app with this?
 
 We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
