@@ -7,10 +7,10 @@ import { faStar as regularStar } from '@fortawesome/free-regular-svg-icons';
 function Login() {
   const [error, setError] = useState('');
 
-  const handleSignIn = async (event) => {
+  const handleSignIn = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const email = event.target.email.value;
-    const password = event.target.password.value;
+    const email = event.currentTarget.email.value;
+    const password = event.currentTarget.password.value;
 
     const result = await signIn('credentials', {
       redirect: false,
@@ -18,11 +18,11 @@ function Login() {
       password,
     });
 
-    if (result.error) {
+    if (result && result.error) {
       setError(result.error);
     }
 
-    if (result.url) window.location.href = result.url;
+    if (result && result.url) window.location.href = result.url;
   };
 
   const renderStars = () => {
