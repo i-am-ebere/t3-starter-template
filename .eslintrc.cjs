@@ -22,6 +22,7 @@ const config = {
     "@typescript-eslint/no-unsafe-call": "warn",
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/prefer-nullish-coalescing": "warn",
+    "@typescript-eslint/no-empty-function": "warn",
 
     "@typescript-eslint/consistent-type-imports": [
       "warn",
