@@ -2,7 +2,7 @@
   "language": "TypeScript",
   "installCommand": "npm install",
   "formatCommand": "npm run lint:fix",
-  "buildCommand": "npm run build --verbose",
+  "buildCommand": "SKIP_ENV_VALIDATION=1 npm run build --verbose",
   "style": "Tailwind",
   "iconSet": "Font Awesome",
   "componentExamples": "/src/components/ExampleComponent.js",
